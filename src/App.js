@@ -1,25 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
+import frida from './frida.jpg';
 import './App.css';
+import Background from './components/Background.jsx';
 
 function App() {
   return (
+    
+    
+      
     <div className="App">
+    <Background/>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={frida} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+        Mexican artist Frida Kahlo is remembered for her self-portraits, pain and passion, and bold, vibrant colors. She is celebrated in Mexico for her attention to Mexican and indigenous culture and by feminists for her depiction of the female experience and form. 
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.biography.com/artist/frida-kahlo"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Biography
         </a>
       </header>
     </div>
+    
   );
 }
 
